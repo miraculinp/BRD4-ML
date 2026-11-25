@@ -1,0 +1,2 @@
+method,threshold_rule,n_train,n_test,n_inside_ad,fraction_inside_ad,threshold,inside_test_rmse,outside_test_rmse
+standardized descriptor-space 5-nearest-neighbor distance,training mean + 2 population SD,5134,1283,1182,0.921278254091972,12.53095944951217,0.5430065935324253,0.8225966156770292

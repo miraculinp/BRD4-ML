@@ -1,0 +1,40 @@
+{
+  "model": "CatBoostRegressor",
+  "fingerprint": "b03b404165bee1bb",
+  "n_training_molecules": 5134,
+  "n_candidate_features": 250,
+  "n_scaffold_groups": 2120,
+  "n_folds": 5,
+  "cv": "Stage 07 scaffold-grouped folds reused exactly (no new CV seed)",
+  "fold_source": "cache: C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\models\\fold_feature_cache\\prepared_folds_f081bd1fe370.joblib",
+  "fold_assignment_hash": "b65968a1a9a60874",
+  "estimator_seed_rule": "seed + fold number (same as Stage 07)",
+  "seed": 42,
+  "permutation_seed_rule": "seed + 9001 + permutation_number",
+  "n_randomizations_requested": 20,
+  "best_params": {
+    "iterations": 1000,
+    "depth": 8,
+    "learning_rate": 0.04720433565973461,
+    "l2_leaf_reg": 0.10998433026335956,
+    "random_strength": 1.9234156237602147
+  },
+  "observed_metrics_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json",
+  "observed_metrics": {
+    "cv_pooled_oof_rmse": 0.596612878328802,
+    "cv_pooled_oof_mse": 0.35594692658777793,
+    "cv_pooled_oof_mae": 0.43382244623623006,
+    "cv_pooled_oof_r2": 0.7566532564897612,
+    "cv_mean_fold_rmse": 0.5999104315692968,
+    "cv_sd_fold_rmse": 0.04204175814075742
+  },
+  "stage07_run_id": "f081bd1fe370",
+  "stage07_trial_number": 10,
+  "stage07_study_name": "brd4_f081bd1fe370_CatBoostRegressor",
+  "stage07_objective": "mean fold RMSE",
+  "training_feature_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet",
+  "training_target_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet",
+  "selected_feature_list_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv",
+  "training_id_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv",
+  "test_data_loaded": false
+}

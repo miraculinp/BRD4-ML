@@ -1,0 +1,20 @@
+{
+  "stage": "01_load_data",
+  "seed": 42,
+  "created_utc": "2026-10-20T11:38:21.747481+00:00",
+  "parameters": {
+    "columns": [
+      "Molecule ID",
+      "Smiles",
+      "IC50 (nM)"
+    ],
+    "formula": "pIC50 = 9 - log10(IC50_nM)"
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\data.csv": "a6745d01e895dfd2c8044eba326acaeecda72d358817b0de5ed5207c91e54ae1"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\01_load_data\\tables\\raw_activity.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\01_load_data\\figures\\pic50_histogram.png"
+  ]
+}

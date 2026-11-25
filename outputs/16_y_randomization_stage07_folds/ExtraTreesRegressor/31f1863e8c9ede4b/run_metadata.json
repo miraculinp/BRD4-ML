@@ -1,0 +1,41 @@
+{
+  "model": "ExtraTreesRegressor",
+  "fingerprint": "31f1863e8c9ede4b",
+  "n_training_molecules": 5134,
+  "n_candidate_features": 250,
+  "n_scaffold_groups": 2120,
+  "n_folds": 5,
+  "cv": "Stage 07 scaffold-grouped folds reused exactly (no new CV seed)",
+  "fold_source": "cache: C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\models\\fold_feature_cache\\prepared_folds_f081bd1fe370.joblib",
+  "fold_assignment_hash": "b65968a1a9a60874",
+  "estimator_seed_rule": "seed + fold number (same as Stage 07)",
+  "seed": 42,
+  "permutation_seed_rule": "seed + 9001 + permutation_number",
+  "n_randomizations_requested": 20,
+  "best_params": {
+    "n_estimators": 900,
+    "max_features": 0.46298618941691183,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_depth": 40,
+    "bootstrap": true
+  },
+  "observed_metrics_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json",
+  "observed_metrics": {
+    "cv_pooled_oof_rmse": 0.5864959011235438,
+    "cv_pooled_oof_mse": 0.3439774420347176,
+    "cv_pooled_oof_mae": 0.4214210944782483,
+    "cv_pooled_oof_r2": 0.764836316575167,
+    "cv_mean_fold_rmse": 0.5899879573590937,
+    "cv_sd_fold_rmse": 0.04175795598611253
+  },
+  "stage07_run_id": "f081bd1fe370",
+  "stage07_trial_number": 23,
+  "stage07_study_name": "brd4_f081bd1fe370_ExtraTreesRegressor",
+  "stage07_objective": "mean fold RMSE",
+  "training_feature_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet",
+  "training_target_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet",
+  "selected_feature_list_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv",
+  "training_id_source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv",
+  "test_data_loaded": false
+}

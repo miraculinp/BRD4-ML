@@ -1,0 +1,7 @@
+Compound,Case,MW,cLogP,TPSA,HBA,HBD,Aromatic rings,Heavy atoms
+CHEMBL6010533,"CatBoost, highest",518.6,4.97,104.0,7,1,5,38
+CHEMBL4206831,"CatBoost, median",535.6,5.49,119.6,7,3,4,40
+CHEMBL4788775,"CatBoost, lowest",175.2,1.63,20.3,1,0,1,13
+CHEMBL6010533,"ExtraTrees, highest",518.6,4.97,104.0,7,1,5,38
+CHEMBL5819331,"ExtraTrees, median",387.5,3.85,51.9,7,0,3,26
+CHEMBL4788775,"ExtraTrees, lowest",175.2,1.63,20.3,1,0,1,13

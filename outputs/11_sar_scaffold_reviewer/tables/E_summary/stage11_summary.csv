@@ -1,0 +1,20 @@
+,value
+n_training_molecules,5134
+n_test_molecules,1283
+n_fixed_features,250
+n_exact_scaffolds_training,2027
+n_focus_bits,14
+n_mmp_pairs,91965
+n_supported_enriching,1236
+n_supported_depleting,1015
+n_primary_activity_cliffs,6
+n_recorded_stereo_pairs,405
+n_bootstrap,2000
+bootstrap_unit,test scaffold group
+bootstrap_groups_source,saved column 'group' in Stage 08 predictions
+ridge_baseline_run,True
+shap_computed_current_models,True
+duplicate_sensitivity_run,True
+test_labels_read_before_part_D,False
+final_models_refit,False
+feature_selection_repeated,False

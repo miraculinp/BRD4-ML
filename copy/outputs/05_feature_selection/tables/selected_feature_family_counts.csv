@@ -1,0 +1,37 @@
+model,budget,family,mean_features_across_folds
+ExtraTrees,100,Mordred 2D,47.8
+ExtraTrees,100,Morgan,52.0
+ExtraTrees,100,Physicochemical,0.2
+ExtraTrees,250,Mordred 2D,151.8
+ExtraTrees,250,Morgan,97.0
+ExtraTrees,250,Physicochemical,1.2
+ExtraTrees,500,Mordred 2D,348.8
+ExtraTrees,500,Morgan,147.6
+ExtraTrees,500,Physicochemical,3.6
+ExtraTrees,all,Mordred 2D,645.8
+ExtraTrees,all,Morgan,2032.2
+ExtraTrees,all,Physicochemical,8.0
+HistGradientBoosting,100,Mordred 2D,47.8
+HistGradientBoosting,100,Morgan,52.0
+HistGradientBoosting,100,Physicochemical,0.2
+HistGradientBoosting,250,Mordred 2D,151.8
+HistGradientBoosting,250,Morgan,97.0
+HistGradientBoosting,250,Physicochemical,1.2
+HistGradientBoosting,500,Mordred 2D,348.8
+HistGradientBoosting,500,Morgan,147.6
+HistGradientBoosting,500,Physicochemical,3.6
+HistGradientBoosting,all,Mordred 2D,645.8
+HistGradientBoosting,all,Morgan,2032.2
+HistGradientBoosting,all,Physicochemical,8.0
+LightGBM,100,Mordred 2D,47.8
+LightGBM,100,Morgan,52.0
+LightGBM,100,Physicochemical,0.2
+LightGBM,250,Mordred 2D,151.8
+LightGBM,250,Morgan,97.0
+LightGBM,250,Physicochemical,1.2
+LightGBM,500,Mordred 2D,348.8
+LightGBM,500,Morgan,147.6
+LightGBM,500,Physicochemical,3.6
+LightGBM,all,Mordred 2D,645.8
+LightGBM,all,Morgan,2032.2
+LightGBM,all,Physicochemical,8.0

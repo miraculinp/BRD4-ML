@@ -1,0 +1,27 @@
+{
+  "run_id": "2f2685a03093e3f5",
+  "features_sha256": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1",
+  "target_sha256": "7ef24ccbada9d8a214bda65e33e5214ef35d3f3e8191e6a3f618f622a64a2c69",
+  "train_ids_sha256": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+  "stage_script_sha256": "49a238c70a213f3d0b7cdace7a31a19d42876d4e4a5ab97f081032be5d5f31a9",
+  "threshold": 0.98,
+  "settings": {
+    "folds": 5,
+    "budgets": [
+      100,
+      250,
+      500,
+      "all"
+    ],
+    "models": [
+      "ExtraTrees",
+      "HistGradientBoosting",
+      "LightGBM"
+    ],
+    "seed": 42,
+    "threads": 2,
+    "selector_trees": 200,
+    "extra_trees": 300
+  },
+  "seed": 42
+}

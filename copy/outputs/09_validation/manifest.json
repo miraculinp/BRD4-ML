@@ -1,0 +1,30 @@
+{
+  "stage": "09_validation",
+  "seed": 42,
+  "created_utc": "2026-10-22T08:46:16.093204+00:00",
+  "parameters": {
+    "applicability_domain": "standardized 5-nearest-neighbor distance; threshold training mean + 2 SD",
+    "y_randomization_model": "ExtraTreesRegressor",
+    "n_randomizations": 20,
+    "cv": "five-fold shuffled GroupKFold by scaffold, matching Stage 08 split seed",
+    "fold_feature_selection": "cleaning and ExtraTrees feature ranking refit within every fold and permutation",
+    "optuna_best_parameters_refit": false,
+    "svr_fitted": false,
+    "test_used_for_tuning": false
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\all_features.parquet": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\target.parquet": "7ef24ccbada9d8a214bda65e33e5214ef35d3f3e8191e6a3f618f622a64a2c69",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv": "554e37fe419c1abbb2a9efcc144601553200207ea32342fed202fe7dae67de58",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\locked_test_predictions_all_models.csv": "e7a8c9e2afa51fa51a03138e83055c2d1033a8e9cc99256b2f30f25bd3cbfddc",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json": "d93fc363b8de6704b1387c40768dac7a3905fcf1718083470e700a4747cfd0dc"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09_validation\\tables\\applicability_domain_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09_validation\\tables\\applicability_domain_test.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09_validation\\tables\\y_randomization_extratrees_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09_validation\\tables\\y_randomization_extratrees_iterations.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09_validation\\tables\\validation_summary.csv"
+  ]
+}

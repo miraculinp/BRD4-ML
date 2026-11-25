@@ -1,0 +1,44 @@
+{
+  "stage": "08_final_model_evaluation",
+  "seed": 42,
+  "created_utc": "2026-10-21T12:46:30.790175+00:00",
+  "parameters": {
+    "models_fitted": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "parameters": {
+      "ExtraTreesRegressor": "Optuna best parameters",
+      "CatBoostRegressor": "Optuna best parameters",
+      "SVR": "scikit-learn defaults"
+    },
+    "primary_model_by_fresh_training_cv": "ExtraTreesRegressor",
+    "feature_budget_final_fit": 250,
+    "cv_feature_budget": 250,
+    "cv_folds": 5,
+    "cv_split": "shuffled GroupKFold by scaffold, separate seed from Stage 07",
+    "cv_feature_selection": "fold-local cleaning and ExtraTrees top-250 ranking",
+    "test_used_for_tuning": false,
+    "test_metrics_created": true,
+    "no_imputation": true
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_groups.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\all_features.parquet": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\target.parquet": "7ef24ccbada9d8a214bda65e33e5214ef35d3f3e8191e6a3f618f622a64a2c69",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv": "554e37fe419c1abbb2a9efcc144601553200207ea32342fed202fe7dae67de58",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json": "d93fc363b8de6704b1387c40768dac7a3905fcf1718083470e700a4747cfd0dc",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\final_model_comparison.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\fresh_cv_fold_metrics_all_models.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\fresh_cv_oof_predictions_all_models.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\locked_test_predictions_all_models.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\models\\final_model_bundle.joblib"
+  ]
+}

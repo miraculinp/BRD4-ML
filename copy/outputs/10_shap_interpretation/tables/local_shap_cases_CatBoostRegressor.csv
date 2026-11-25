@@ -1,0 +1,4 @@
+model,case,chembl_id,predicted_pIC50
+CatBoostRegressor,lowest_predicted_pIC50,CHEMBL4748673,2.993360164865021
+CatBoostRegressor,median_predicted_pIC50,CHEMBL4848969,6.164432815963175
+CatBoostRegressor,highest_predicted_pIC50,CHEMBL6051531,9.236537329061484

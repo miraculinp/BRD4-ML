@@ -1,0 +1,18 @@
+model,case,chembl_id,bit_id,local_SHAP_contribution_pIC50,reason
+ExtraTreesRegressor,highest_predicted,CHEMBL6010533,361,0.2606832619360228,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,highest_predicted,CHEMBL6010533,1164,-0.10479905111348241,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,361,0.10565075096375108,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,1722,-0.06187241171650383,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,1164,-0.05043251004674245,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,318,0.028747545095485307,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,5,-0.028184918324223693,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,1696,-0.022688145331743265,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,917,-0.020549031609985436,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,lowest_predicted,CHEMBL4788775,1722,-0.15395493856746298,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,lowest_predicted,CHEMBL4788775,1164,-0.13859608621743139,Bit absent from the molecule; no atoms to map.
+ExtraTreesRegressor,lowest_predicted,CHEMBL4788775,875,-0.13091074861650417,Bit absent from the molecule; no atoms to map.
+CatBoostRegressor,highest_predicted,CHEMBL6010533,361,0.15459189019570016,Bit absent from the molecule; no atoms to map.
+CatBoostRegressor,median_predicted,CHEMBL4206831,361,0.08266934850336423,Bit absent from the molecule; no atoms to map.
+CatBoostRegressor,median_predicted,CHEMBL4206831,318,0.057300021607194634,Bit absent from the molecule; no atoms to map.
+CatBoostRegressor,lowest_predicted,CHEMBL4788775,875,-0.12748272552902565,Bit absent from the molecule; no atoms to map.
+CatBoostRegressor,lowest_predicted,CHEMBL4788775,1722,-0.08866352914687275,Bit absent from the molecule; no atoms to map.

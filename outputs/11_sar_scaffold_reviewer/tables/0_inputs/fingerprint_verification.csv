@@ -1,0 +1,2 @@
+n_training_molecules,fingerprint_radius,fingerprint_bits,include_chirality,bit_cells_matching_stage03,bit_cells_compared,exact_match
+5134,2,2048,True,10514432,10514432,True

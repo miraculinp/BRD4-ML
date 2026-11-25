@@ -1,0 +1,12 @@
+{
+  "fold": 1,
+  "model": "ExtraTrees",
+  "budget": "500",
+  "n_features": 500,
+  "n_train": 4107,
+  "n_validation": 1027,
+  "R2": 0.8276379616414032,
+  "RMSE": 0.5173860487779139,
+  "MAE": 0.3731063813345805,
+  "warnings": ""
+}

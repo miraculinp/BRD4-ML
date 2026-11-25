@@ -1,0 +1,8 @@
+{
+  "model": "CatBoostRegressor",
+  "iteration": 10,
+  "permutation_seed": 9053,
+  "pooled_oof_rmse": 1.2849971595559506,
+  "pooled_oof_r2": -0.12887180678787735,
+  "mean_fold_rmse": 1.2836456308574538
+}

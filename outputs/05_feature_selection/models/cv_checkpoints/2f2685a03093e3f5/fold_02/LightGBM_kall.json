@@ -1,0 +1,12 @@
+{
+  "fold": 2,
+  "model": "LightGBM",
+  "budget": "all",
+  "n_features": 2682,
+  "n_train": 4107,
+  "n_validation": 1027,
+  "R2": 0.6838562773200441,
+  "RMSE": 0.6409651308885376,
+  "MAE": 0.462425927427848,
+  "warnings": ""
+}

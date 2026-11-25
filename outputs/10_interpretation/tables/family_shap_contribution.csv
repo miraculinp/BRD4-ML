@@ -1,0 +1,5 @@
+model,family,mean_abs_shap,n_features
+ExtraTreesRegressor,Morgan,1.245019036418057,103
+ExtraTreesRegressor,Mordred 2D,0.5923270106461684,147
+CatBoostRegressor,Morgan,0.7837491859180292,103
+CatBoostRegressor,Mordred 2D,1.4006280636525528,147

@@ -1,0 +1,74 @@
+{
+  "stage": "11_mmp_activity_cliffs",
+  "seed": 42,
+  "created_utc": "2026-10-22T19:55:55.870983+00:00",
+  "parameters": {
+    "data_partition": "Stage 04 training/development only",
+    "primary_cliff": {
+      "similarity": ">=0.90",
+      "absolute_delta_pIC50": ">=2.0"
+    },
+    "sensitivity_similarity_thresholds": [
+      0.85,
+      0.9
+    ],
+    "sensitivity_activity_gap_thresholds": [
+      1.0,
+      2.0
+    ],
+    "fingerprint": {
+      "radius": 2,
+      "bits": 2048,
+      "include_chirality": true,
+      "verified_exactly_against_stage03": true
+    },
+    "mmp_fragmentation": {
+      "method": "RDKit single-cut; larger heavy-atom fragment is core",
+      "max_cuttable_bonds_per_molecule": 30
+    },
+    "mmp_rule_support": {
+      "minimum_pairs": 3,
+      "minimum_direction_consistency": 0.6,
+      "depleting_consistency_checked_in_negative_direction": true
+    },
+    "oof_source": "Stage 08 fresh five-fold scaffold-grouped training OOF predictions",
+    "models_refit": false,
+    "test_activity_read": false,
+    "candidate_generation": false
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\02_clean_data\\tables\\cleaned_activity.csv": "f23789717c069d69fe5873a56fb23d3384dcbec01ffa9b17fe220341be174a64",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv": "554e37fe419c1abbb2a9efcc144601553200207ea32342fed202fe7dae67de58",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\fresh_cv_oof_predictions_all_models.csv": "455562748ee60c7fc149db5b64542694712c9e6fdc5438cc6b6045a35d69e135",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\ecfp4_features.parquet": "50b4f6f0edeac77d92bb7a31b03aab3f445437c68bb7fc0634f268738a489327"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\activity_cliff_landscape.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\activity_cliff_landscape.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\activity_cliff_threshold_sensitivity.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\activity_cliff_threshold_sensitivity.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\mmp_supported_transformations.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\mmp_supported_transformations.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\figures\\primary_activity_cliff_structure_pairs.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\INTERPRETATION_NOTES.md",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\activity_cliff_threshold_sensitivity.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\fingerprint_verification.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\input_partition_audit.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_depleting_transformations.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_enriching_transformations.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_fragmentation_diagnostics.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_fragments_training.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_pairs_training.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_run_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_transformation_summary_all.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\oof_pair_difference_metrics.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\primary_activity_cliffs_training.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\primary_cliff_oof_pair_predictions.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\recorded_stereochemical_pairs_training.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\similar_pairs_minimum_sensitivity_thresholds.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\stage11_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\stereochemical_pair_oof_predictions.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\stereochemical_pair_summary.csv"
+  ]
+}

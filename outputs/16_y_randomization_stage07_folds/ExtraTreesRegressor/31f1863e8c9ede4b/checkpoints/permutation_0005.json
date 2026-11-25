@@ -1,0 +1,8 @@
+{
+  "model": "ExtraTreesRegressor",
+  "iteration": 5,
+  "permutation_seed": 9048,
+  "pooled_oof_rmse": 1.2565592289723464,
+  "pooled_oof_r2": -0.07945916985124102,
+  "mean_fold_rmse": 1.256524385208411
+}

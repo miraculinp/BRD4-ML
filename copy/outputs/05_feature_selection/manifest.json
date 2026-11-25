@@ -1,0 +1,47 @@
+{
+  "stage": "05_feature_selection",
+  "seed": 42,
+  "created_utc": "2026-10-20T18:49:30.371382+00:00",
+  "parameters": {
+    "folds": 5,
+    "budgets": [
+      100,
+      250,
+      500,
+      "all"
+    ],
+    "models": [
+      "ExtraTrees",
+      "HistGradientBoosting",
+      "LightGBM"
+    ],
+    "seed": 42,
+    "threads": 2,
+    "selector_trees": 200,
+    "extra_trees": 300,
+    "cv": "GroupKFold using scaffold/connectivity groups",
+    "n_splits": 5,
+    "missing_policy": "drop columns with any missing value; no imputation",
+    "nonfinite_policy": "drop columns with any nonfinite value",
+    "constant_policy": "drop constants fitted on each fold training partition",
+    "correlation_threshold": 0.98,
+    "selector": "ExtraTreesRegressor MDI ranking per fold",
+    "models_compared": [
+      "ExtraTrees",
+      "HistGradientBoosting",
+      "LightGBM"
+    ],
+    "test_used": false,
+    "recommendation_rule": "smallest budget within best mean RMSE + descriptive fold SE"
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\all_features.parquet": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\target.parquet": "7ef24ccbada9d8a214bda65e33e5214ef35d3f3e8191e6a3f618f622a64a2c69",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\feature_selection_cv_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\models\\cleaner_and_selector.joblib"
+  ]
+}

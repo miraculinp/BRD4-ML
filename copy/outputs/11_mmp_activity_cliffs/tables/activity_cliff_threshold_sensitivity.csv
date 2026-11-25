@@ -1,0 +1,5 @@
+similarity_threshold_inclusive,activity_gap_threshold_inclusive_pIC50,n_similar_pairs_at_similarity_threshold,n_activity_cliffs,n_unique_cliff_molecules,n_same_evaluation_fold_pairs,n_cross_evaluation_fold_pairs
+0.85,1.0,1464,154,232,96,58
+0.85,2.0,1464,26,48,22,4
+0.9,1.0,461,44,78,23,21
+0.9,2.0,461,6,10,3,3

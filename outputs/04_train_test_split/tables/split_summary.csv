@@ -1,0 +1,2 @@
+n_total,n_train,n_test,train_fraction,test_fraction,n_train_groups,n_test_groups,scaffold_overlap,seed
+6417,5134,1283,0.8000623344241857,0.19993766557581424,2120,531,0,42

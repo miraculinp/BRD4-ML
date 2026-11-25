@@ -1,0 +1,4 @@
+model,case,chembl_id,predicted_pIC50,n_morgan_features_in_fixed250,n_present_morgan_bits_explained,figure
+CatBoostRegressor,low,CHEMBL4748673,2.993360164865021,103,12,C:\Users\USER\Documents\E\Code\outputs\10b_interpretation\figures\fixed250_morgan_SHAP_CatBoost_low_CHEMBL4748673.png
+CatBoostRegressor,median,CHEMBL4848969,6.164432815963175,103,8,C:\Users\USER\Documents\E\Code\outputs\10b_interpretation\figures\fixed250_morgan_SHAP_CatBoost_median_CHEMBL4848969.png
+CatBoostRegressor,high,CHEMBL6051531,9.236537329061484,103,16,C:\Users\USER\Documents\E\Code\outputs\10b_interpretation\figures\fixed250_morgan_SHAP_CatBoost_high_CHEMBL6051531.png

@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "data_file": "data.csv",
+  "id_column": "Molecule ID",
+  "smiles_column": "Smiles",
+  "ic50_column": "IC50 (nM)",
+  "remove_salts": true,
+  "fingerprint_radius": 2,
+  "fingerprint_bits": 2048,
+  "use_chirality": true,
+  "test_size": 0.2,
+  "feature_budgets": [
+    100,
+    250,
+    500,
+    "all"
+  ],
+  "cv_splits": 5,
+  "correlation_threshold": 0.98,
+  "conformer_count": 50,
+  "conformer_rms_prune": 0.5,
+  "conformer_max_iterations": 200
+}

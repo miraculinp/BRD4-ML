@@ -1,0 +1,12 @@
+{
+  "fold": 5,
+  "model": "HistGradientBoosting",
+  "budget": "100",
+  "n_features": 100,
+  "n_train": 4108,
+  "n_validation": 1026,
+  "R2": 0.6318458688913525,
+  "RMSE": 0.6829851082232617,
+  "MAE": 0.5027856384153074,
+  "warnings": ""
+}

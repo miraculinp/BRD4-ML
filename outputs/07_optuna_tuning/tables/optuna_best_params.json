@@ -1,0 +1,219 @@
+{
+  "run_id": "f081bd1fe370",
+  "cv": "5-fold shuffled GroupKFold by training scaffold/connectivity group",
+  "objective": "mean fold RMSE",
+  "feature_budget": 250,
+  "feature_selection": "fixed ordered Stage 05 selected 250-feature list used unchanged for tuning and every fold",
+  "fold_metrics": "RMSE, MSE, MAE, and R2 per fold; reported as mean and sample SD across the five folds",
+  "best_trial_cv_metrics_reused": true,
+  "extra_best_parameter_cv_refit": false,
+  "cv_interpretation": "All three metrics are selected-trial tuning-CV estimates and may be optimistic after parameter selection. Use the locked test set for final external performance.",
+  "no_imputation": true,
+  "params_by_model": {
+    "ExtraTreesRegressor": {
+      "params": {
+        "n_estimators": 900,
+        "max_features": 0.46298618941691183,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_depth": 40,
+        "bootstrap": true
+      },
+      "parameter_source": "Optuna best parameters",
+      "best_cv_rmse": 0.5899879573590937,
+      "model": "ExtraTreesRegressor",
+      "cv_mean_fold_rmse": 0.5899879573590937,
+      "cv_mean_fold_mse": 0.34948077133926625,
+      "cv_mean_fold_mae": 0.4246421960412069,
+      "cv_mean_fold_r2": 0.7516361791478621,
+      "cv_sd_fold_rmse": 0.04175795598611253,
+      "cv_sd_fold_mse": 0.048724454242525896,
+      "cv_sd_fold_mae": 0.03602997673821823,
+      "cv_sd_fold_r2": 0.05576067861431367,
+      "cv_pooled_oof_rmse": 0.5864959011235438,
+      "cv_pooled_oof_mse": 0.3439774420347176,
+      "cv_pooled_oof_mae": 0.4214210944782483,
+      "cv_pooled_oof_r2": 0.764836316575167,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "n_validation": 1281,
+          "rmse": 0.5284885271610219,
+          "mse": 0.27930012334082616,
+          "mae": 0.3759634974302456,
+          "r2": 0.8331382798345642
+        },
+        {
+          "fold": 2,
+          "n_validation": 870,
+          "rmse": 0.605116324674527,
+          "mse": 0.36616576638760767,
+          "mae": 0.4214784845077309,
+          "r2": 0.7472882973802857
+        },
+        {
+          "fold": 3,
+          "n_validation": 938,
+          "rmse": 0.6413389935305109,
+          "mse": 0.41131570462272876,
+          "mae": 0.47767188741077043,
+          "r2": 0.6784372002513877
+        },
+        {
+          "fold": 4,
+          "n_validation": 1102,
+          "rmse": 0.5749574133631032,
+          "mse": 0.33057602718119034,
+          "mae": 0.42433063768384643,
+          "r2": 0.7353476515377841
+        },
+        {
+          "fold": 5,
+          "n_validation": 943,
+          "rmse": 0.6000385280663054,
+          "mse": 0.36004623516397843,
+          "mae": 0.42376647317344085,
+          "r2": 0.7639694667352888
+        }
+      ],
+      "trial_number": 23,
+      "study_name": "brd4_f081bd1fe370_ExtraTreesRegressor"
+    },
+    "CatBoostRegressor": {
+      "params": {
+        "iterations": 1000,
+        "depth": 8,
+        "learning_rate": 0.04720433565973461,
+        "l2_leaf_reg": 0.10998433026335956,
+        "random_strength": 1.9234156237602147
+      },
+      "parameter_source": "Optuna best parameters",
+      "best_cv_rmse": 0.5999104315692968,
+      "model": "CatBoostRegressor",
+      "cv_mean_fold_rmse": 0.5999104315692968,
+      "cv_mean_fold_mse": 0.3613065334477127,
+      "cv_mean_fold_mae": 0.43676047938387663,
+      "cv_mean_fold_r2": 0.7431520608532971,
+      "cv_sd_fold_rmse": 0.04204175814075742,
+      "cv_sd_fold_mse": 0.049825879358958824,
+      "cv_sd_fold_mae": 0.03577969574920719,
+      "cv_sd_fold_r2": 0.057819988365658055,
+      "cv_pooled_oof_rmse": 0.596612878328802,
+      "cv_pooled_oof_mse": 0.35594692658777793,
+      "cv_pooled_oof_mae": 0.43382244623623006,
+      "cv_pooled_oof_r2": 0.7566532564897612,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "n_validation": 1281,
+          "rmse": 0.5368074655425086,
+          "mse": 0.2881622550621715,
+          "mae": 0.391884397364538,
+          "r2": 0.8278437940116852
+        },
+        {
+          "fold": 2,
+          "n_validation": 870,
+          "rmse": 0.604768758058087,
+          "mse": 0.3657452507231211,
+          "mae": 0.42550692084047054,
+          "r2": 0.7475785190211535
+        },
+        {
+          "fold": 3,
+          "n_validation": 938,
+          "rmse": 0.6517198979448495,
+          "mse": 0.4247388253772451,
+          "mae": 0.4910657843387557,
+          "r2": 0.6679431290484776
+        },
+        {
+          "fold": 4,
+          "n_validation": 1102,
+          "rmse": 0.5897204919118868,
+          "mse": 0.3477702585807977,
+          "mae": 0.4338313617337205,
+          "r2": 0.7215823045502522
+        },
+        {
+          "fold": 5,
+          "n_validation": 943,
+          "rmse": 0.616535544389152,
+          "mse": 0.3801160774952281,
+          "mae": 0.44151393264189825,
+          "r2": 0.7508125576349169
+        }
+      ],
+      "trial_number": 10,
+      "study_name": "brd4_f081bd1fe370_CatBoostRegressor"
+    },
+    "SVR": {
+      "params": {
+        "kernel": "rbf",
+        "C": 18.684324183616088,
+        "epsilon": 0.0020663904525143905,
+        "gamma": 0.0008251796314296465
+      },
+      "parameter_source": "Optuna best parameters",
+      "best_cv_rmse": 0.5886360630392922,
+      "model": "SVR",
+      "cv_mean_fold_rmse": 0.5886360630392922,
+      "cv_mean_fold_mse": 0.3479030454323573,
+      "cv_mean_fold_mae": 0.4154552378314431,
+      "cv_mean_fold_r2": 0.7541014421148857,
+      "cv_sd_fold_rmse": 0.04199152774607825,
+      "cv_sd_fold_mse": 0.04904915979677411,
+      "cv_sd_fold_mae": 0.028366988040361866,
+      "cv_sd_fold_r2": 0.048893503918417784,
+      "cv_pooled_oof_rmse": 0.5852319736284889,
+      "cv_pooled_oof_mse": 0.3424964629570963,
+      "cv_pooled_oof_mae": 0.41334150771704975,
+      "cv_pooled_oof_r2": 0.7658488030129649,
+      "fold_metrics": [
+        {
+          "fold": 1,
+          "n_validation": 1281,
+          "rmse": 0.5437942889180084,
+          "mse": 0.29571222865984237,
+          "mae": 0.39778509412640667,
+          "r2": 0.8233332282208723
+        },
+        {
+          "fold": 2,
+          "n_validation": 870,
+          "rmse": 0.6076926528185235,
+          "mse": 0.36929036028961454,
+          "mae": 0.4193158063268427,
+          "r2": 0.7451318384279337
+        },
+        {
+          "fold": 3,
+          "n_validation": 938,
+          "rmse": 0.6334978750884352,
+          "mse": 0.4013195577415627,
+          "mae": 0.4614429493567745,
+          "r2": 0.6862520950917256
+        },
+        {
+          "fold": 4,
+          "n_validation": 1102,
+          "rmse": 0.5438509461621365,
+          "mse": 0.2957738516414511,
+          "mae": 0.3879859184779716,
+          "r2": 0.7632095553991248
+        },
+        {
+          "fold": 5,
+          "n_validation": 943,
+          "rmse": 0.6143445522093575,
+          "mse": 0.37741922882931594,
+          "mae": 0.41074642086922,
+          "r2": 0.7525804934347722
+        }
+      ],
+      "trial_number": 22,
+      "study_name": "brd4_f081bd1fe370_SVR"
+    }
+  },
+  "recommended_model_by_tuning_cv": "SVR"
+}

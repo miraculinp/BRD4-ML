@@ -1,0 +1,9 @@
+phys_MolWt
+phys_MolLogP
+phys_TPSA
+phys_HBD
+phys_HBA
+phys_RotatableBonds
+phys_RingCount
+phys_HeavyAtomCount
+phys_FractionCSP3

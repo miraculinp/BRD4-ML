@@ -1,0 +1,2 @@
+training_molecules,molecules_with_fragments,unique_cores,cores_shared_by_multiple_molecules,unique_mmp_pairs,fragmented_molecules_not_in_any_shared_core,molecules_with_no_matching_cut_bonds,fragmentation_failures,molecules_skipped_under_6_heavy_atoms,molecules_with_uninterpreted_records,uninterpreted_fragment_record_count,max_cuts,max_cuttable_bonds_per_molecule,mmpa_pattern,chirality_preserved_in_fragment_keys
+5134,5132,30111,3513,91965,378,0,0,1,0,0,1,30,"[#6+0;!$(*=,#[!#6])]!@!=!#[*]",True

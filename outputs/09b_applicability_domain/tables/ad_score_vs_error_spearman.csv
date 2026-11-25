@@ -1,0 +1,17 @@
+model,ad_score,spearman_with_abs_error,n
+ExtraTreesRegressor,mean_5nn_distance,0.2625379581008109,1283
+ExtraTreesRegressor,leverage,0.23356000602690258,1283
+ExtraTreesRegressor,dissimilarity (1 - max Tanimoto),0.19671312227327603,1283
+ExtraTreesRegressor,fraction_features_out_of_bounds,0.0634365484204395,1283
+CatBoostRegressor,mean_5nn_distance,0.21275986754679038,1283
+CatBoostRegressor,leverage,0.16833460870662104,1283
+CatBoostRegressor,dissimilarity (1 - max Tanimoto),0.1463595037203745,1283
+CatBoostRegressor,fraction_features_out_of_bounds,0.040802507963771294,1283
+SVR,mean_5nn_distance,0.2439931338656142,1283
+SVR,leverage,0.22942647976091277,1283
+SVR,dissimilarity (1 - max Tanimoto),0.2114167579338335,1283
+SVR,fraction_features_out_of_bounds,0.09755447329918183,1283
+Equal-weight ensemble (supplementary),mean_5nn_distance,0.22885830202667176,1283
+Equal-weight ensemble (supplementary),leverage,0.19973503391943698,1283
+Equal-weight ensemble (supplementary),dissimilarity (1 - max Tanimoto),0.17573714287020983,1283
+Equal-weight ensemble (supplementary),fraction_features_out_of_bounds,0.07239607704732587,1283

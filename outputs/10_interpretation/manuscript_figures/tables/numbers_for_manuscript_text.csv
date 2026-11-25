@@ -1,0 +1,22 @@
+item,value
+ExtraTrees: top-5 features by mean |SHAP|,"ecfp4_361, ecfp4_1164, ecfp4_1722, ecfp4_318, ecfp4_875"
+ExtraTrees: Morgan share of summed |SHAP| (%),67.8
+ExtraTrees: Mordred 2D share of summed |SHAP| (%),32.1
+ExtraTrees: Physicochemical share of summed |SHAP| (%),0.1
+ExtraTrees: baseline E[f(X)],6.23
+CatBoost: top-5 features by mean |SHAP|,"ecfp4_361, ecfp4_1722, mordred2d_SpMax_A, ecfp4_875, ecfp4_318"
+CatBoost: Morgan share of summed |SHAP| (%),35.9
+CatBoost: Mordred 2D share of summed |SHAP| (%),63.6
+CatBoost: Physicochemical share of summed |SHAP| (%),0.6
+CatBoost: baseline E[f(X)],6.23
+CatBoost highest: CHEMBL6010533 predicted / observed,9.344 / 8.337
+CatBoost median: CHEMBL4206831 predicted / observed,6.176 / 4.469
+CatBoost lowest: CHEMBL4788775 predicted / observed,3.227 / 2.943
+ExtraTrees highest: CHEMBL6010533 predicted / observed,9.101 / 8.337
+ExtraTrees median: CHEMBL5819331 predicted / observed,6.196 / 5.919
+ExtraTrees lowest: CHEMBL4788775 predicted / observed,3.302 / 2.943
+"Pearson r, ExtraTrees vs CatBoost Morgan-bit SHAP",0.874
+Spearman rho,0.787
+Paired molecule-bit values,"132,149"
+Most negative recurring bit: ecfp4_361 (n=324) mean SHAP ET / CatBoost,-0.780 / -0.382
+"Most frequent observed pIC50 in the test set (value: molecules, % of test set)","4.2967: 181, 14.1%"

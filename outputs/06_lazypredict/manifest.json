@@ -1,0 +1,26 @@
+{
+  "stage": "06_lazypredict",
+  "seed": 42,
+  "created_utc": "2026-10-20T20:32:30.365679+00:00",
+  "parameters": {
+    "screening": "fold-wise LazyRegressor with scaffold GroupKFold",
+    "n_splits": 5,
+    "features": 250,
+    "test_used": false,
+    "top3": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "prediction_output_enabled": true
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_groups.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\06_lazypredict\\tables\\lazypredict_results.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\06_lazypredict\\tables\\recommended_top3.csv"
+  ]
+}

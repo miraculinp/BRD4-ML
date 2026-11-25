@@ -1,0 +1,2 @@
+n_training_molecules,n_fixed_features,n_supported_rules_considered,n_generated_novel_candidates,n_complete_finite_candidates,n_inside_all_three_AD,n_recommendations,test_activity_read,models_refit,feature_selection_repeated,recommendation_similarity_min,recommendation_inside_all_three_AD
+5134,250,25,71,71,61,3,False,False,False,0.65,True

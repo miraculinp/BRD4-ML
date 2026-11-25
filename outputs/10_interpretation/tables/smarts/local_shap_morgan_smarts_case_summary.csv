@@ -1,0 +1,7 @@
+model,case,chembl_id,n_highlighted_bits,n_mapped_occurrences,SMARTS_queries
+CatBoostRegressor,highest_predicted,CHEMBL6010533,3,4,[#6]-[#6] || [#6]-[#6] || [#6]-[#8] || [#6]:[#6]:[#6]
+CatBoostRegressor,lowest_predicted,CHEMBL4788775,3,3,[#6]-[#7](-[#6])-[#6](-[#6]-[#6])=[#8] || [#7]-[#6](-[#6]-[#6](-[#6])-[#6])=[#8] || [#7]-[#6](-[#6])=[#8]
+CatBoostRegressor,median_predicted,CHEMBL4206831,2,2,[#6]-[#6] || [#6]:[#6]:[#6]
+ExtraTreesRegressor,highest_predicted,CHEMBL6010533,4,5,[#6]:[#6]:[#6](:[#6](:[#7]):[#6]):[#7](:[#6])-[#6] || [#6]-[#8] || [#6]-[#6] || [#6]-[#6] || [#6]:[#6](-[#6]):[#7]
+ExtraTreesRegressor,lowest_predicted,CHEMBL4788775,5,5,[#6]-[#7](-[#6])-[#6](-[#6]-[#6])=[#8] || [#7]-[#6](-[#6]-[#6](-[#6])-[#6])=[#8] || [#6]-[#6]-[#6] || [#6]-[#7](-[#6]-[#6])-[#6](-[#6])=[#8] || [#6]-[#7](-[#6])-[#6]
+ExtraTreesRegressor,median_predicted,CHEMBL5819331,2,4,[#6]:[#6]:[#6] || [#6]:[#6]:[#6] || [#6]-[#6]-[#16] || [#16]-[#6]-[#6]

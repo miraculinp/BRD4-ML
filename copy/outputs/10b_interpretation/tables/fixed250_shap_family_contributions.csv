@@ -1,0 +1,9 @@
+model,feature_family,n_features,mean_abs_family_contribution,mean_signed_family_contribution,share_of_total_abs_contribution_pct
+ExtraTreesRegressor,Morgan,103,1.2788948204587252,-0.05007422331253021,67.92907745546479
+ExtraTreesRegressor,Mordred 2D,146,0.6011130336975067,0.020002858936722198,31.92839096094
+ExtraTreesRegressor,Mordred 3D,0,0.0,0.0,0.0
+ExtraTreesRegressor,Physicochemical,1,0.002683429701090694,-3.786350116296051e-05,0.14253158359520265
+CatBoostRegressor,Morgan,103,0.8448958793594039,-0.04374029333496432,39.25855577386229
+CatBoostRegressor,Mordred 2D,146,1.294146725540697,0.007463291111119957,60.13324558136303
+CatBoostRegressor,Mordred 3D,0,0.0,0.0,0.0
+CatBoostRegressor,Physicochemical,1,0.013089236694341594,-0.0005181424183797124,0.608198644774672

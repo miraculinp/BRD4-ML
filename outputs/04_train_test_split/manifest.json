@@ -1,0 +1,24 @@
+{
+  "stage": "04_train_test_split",
+  "seed": 42,
+  "created_utc": "2026-10-20T16:33:47.873951+00:00",
+  "parameters": {
+    "seed": 42,
+    "test_size_requested": 0.2,
+    "group_column": "Bemis-Murcko scaffold; acyclic molecules grouped by canonical connectivity",
+    "train_n": 5134,
+    "test_n": 1283,
+    "train_groups": 2120,
+    "test_groups": 531,
+    "scaffold_overlap": 0,
+    "test_locked": true
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\02_clean_data\\tables\\cleaned_activity.csv": "f23789717c069d69fe5873a56fb23d3384dcbec01ffa9b17fe220341be174a64"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\models\\split_manifest.json"
+  ]
+}

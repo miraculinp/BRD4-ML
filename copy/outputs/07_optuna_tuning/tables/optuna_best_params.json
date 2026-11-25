@@ -1,0 +1,29 @@
+{
+  "params_by_model": {
+    "ExtraTreesRegressor": {
+      "params": {
+        "n_estimators": 600,
+        "max_features": 0.472208064477399,
+        "min_samples_split": 6,
+        "min_samples_leaf": 1,
+        "max_depth": 0,
+        "bootstrap": false
+      },
+      "best_cv_rmse": 0.5789314533524725,
+      "trial_number": 25,
+      "study_name": "brd4_56225827313f_ExtraTreesRegressor"
+    },
+    "CatBoostRegressor": {
+      "params": {
+        "iterations": 800,
+        "depth": 7,
+        "learning_rate": 0.0356629558612208,
+        "l2_leaf_reg": 0.1710661445240236,
+        "random_strength": 1.232547863884686
+      },
+      "best_cv_rmse": 0.5976063831764701,
+      "trial_number": 21,
+      "study_name": "brd4_56225827313f_CatBoostRegressor"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+item,manuscript,current,match
+ExtraTrees top-5 features,"ecfp4_361, ecfp4_1164, ecfp4_1722, ecfp4_318, ecfp4_875","ecfp4_361, ecfp4_1164, ecfp4_1722, ecfp4_318, ecfp4_875",yes
+CatBoost top-5 features,"ecfp4_361, mordred2d_SpMax_A, ecfp4_1722, ecfp4_1164, ecfp4_875","ecfp4_361, ecfp4_1722, mordred2d_SpMax_A, ecfp4_875, ecfp4_318",NO
+ExtraTrees Morgan share of |SHAP| (%),67.9,67.7618,NO
+CatBoost Morgan share of |SHAP| (%),39.3,35.8798,NO
+ExtraTrees Mordred 2D share (%),31.9,32.1179,NO
+CatBoost Mordred 2D share (%),60.1,63.5676,NO
+CHEMBL6051531 predicted (CatBoost),9.237,9.2119,NO
+CHEMBL6051531 observed,9.31,9.3098,yes
+CHEMBL4848969 predicted (CatBoost),6.164,6.0194,NO
+CHEMBL4848969 observed,6.1,6.1,yes
+CHEMBL4748673 predicted (CatBoost),2.993,3.4732,NO
+CHEMBL4748673 observed,3.493,3.4935,yes
+CHEMBL6010533 predicted (ExtraTrees),9.273,9.1005,NO
+CHEMBL6010533 observed,8.337,8.3372,yes
+CHEMBL6033164 predicted (ExtraTrees),6.18,6.2186,NO
+CHEMBL6033164 observed,6.289,6.289,yes
+CHEMBL4763815 predicted (ExtraTrees),3.211,3.3148,NO
+CHEMBL4763815 observed,3.354,3.3536,yes
+Baseline E[f(X)] (ExtraTrees),6.23,6.2296,yes
+Pearson r (Fig. 5),0.893,0.874,NO
+Spearman rho (Fig. 5),0.801,0.7873,NO
+Paired molecule-bit values,132149,132149,yes
+ecfp4_361 carriers,317,324,NO
+"ecfp4_361 mean SHAP, ExtraTrees",-0.781,-0.7798,yes
+"ecfp4_361 mean SHAP, CatBoost",-0.381,-0.3818,yes
+ecfp4_361 median pIC50 difference,-2.473,-2.4728,yes
+Test molecules with pIC50 = 4.2967,181,181,yes
+... as % of test set,14.1,14.1076,yes

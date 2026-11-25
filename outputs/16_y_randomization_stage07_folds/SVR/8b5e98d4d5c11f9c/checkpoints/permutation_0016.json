@@ -1,0 +1,8 @@
+{
+  "model": "SVR",
+  "iteration": 16,
+  "permutation_seed": 9059,
+  "pooled_oof_rmse": 1.3119583646262638,
+  "pooled_oof_r2": -0.17673967680870373,
+  "mean_fold_rmse": 1.313006011228858
+}

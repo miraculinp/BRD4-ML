@@ -1,0 +1,4 @@
+model,max_abs_diff_fresh_vs_saved_test_prediction,n_test
+ExtraTreesRegressor,4.440892098500626e-15,1283
+CatBoostRegressor,1.7763568394002505e-15,1283
+SVR,1.7763568394002505e-15,1283

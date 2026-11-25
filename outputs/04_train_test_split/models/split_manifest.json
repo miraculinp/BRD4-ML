@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "test_size_requested": 0.2,
+  "group_column": "Bemis-Murcko scaffold; acyclic molecules grouped by canonical connectivity",
+  "train_n": 5134,
+  "test_n": 1283,
+  "train_groups": 2120,
+  "test_groups": 531,
+  "scaffold_overlap": 0,
+  "test_locked": true
+}

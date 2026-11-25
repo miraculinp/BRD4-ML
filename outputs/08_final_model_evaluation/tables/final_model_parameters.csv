@@ -1,0 +1,73 @@
+model,parameter,value,origin
+ExtraTreesRegressor,bootstrap,true,Optuna best parameter
+ExtraTreesRegressor,ccp_alpha,0.0,Library default
+ExtraTreesRegressor,criterion,"""squared_error""",Library default
+ExtraTreesRegressor,max_depth,40,Optuna best parameter
+ExtraTreesRegressor,max_features,0.46298618941691183,Optuna best parameter
+ExtraTreesRegressor,max_leaf_nodes,null,Library default
+ExtraTreesRegressor,max_samples,null,Library default
+ExtraTreesRegressor,min_impurity_decrease,0.0,Library default
+ExtraTreesRegressor,min_samples_leaf,1,Optuna best parameter
+ExtraTreesRegressor,min_samples_split,2,Optuna best parameter
+ExtraTreesRegressor,min_weight_fraction_leaf,0.0,Library default
+ExtraTreesRegressor,monotonic_cst,null,Library default
+ExtraTreesRegressor,n_estimators,900,Optuna best parameter
+ExtraTreesRegressor,n_jobs,2,Fixed by pipeline
+ExtraTreesRegressor,oob_score,false,Library default
+ExtraTreesRegressor,random_state,42,Fixed by pipeline
+ExtraTreesRegressor,verbose,0,Fixed by pipeline
+ExtraTreesRegressor,warm_start,false,Library default
+CatBoostRegressor,allow_writing_files,false,Fixed by pipeline
+CatBoostRegressor,auto_class_weights,"""None""",Library default
+CatBoostRegressor,bayesian_matrix_reg,0.10000000149011612,Library default
+CatBoostRegressor,best_model_min_trees,1,Library default
+CatBoostRegressor,boost_from_average,true,Library default
+CatBoostRegressor,boosting_type,"""Plain""",Library default
+CatBoostRegressor,bootstrap_type,"""MVS""",Library default
+CatBoostRegressor,border_count,254,Library default
+CatBoostRegressor,classes_count,0,Library default
+CatBoostRegressor,depth,8,Optuna best parameter
+CatBoostRegressor,eval_fraction,0,Library default
+CatBoostRegressor,eval_metric,"""RMSE""",Library default
+CatBoostRegressor,feature_border_type,"""GreedyLogSum""",Library default
+CatBoostRegressor,force_unit_auto_pair_weights,false,Library default
+CatBoostRegressor,grow_policy,"""SymmetricTree""",Library default
+CatBoostRegressor,iterations,1000,Optuna best parameter
+CatBoostRegressor,l2_leaf_reg,0.10998433083295822,Optuna best parameter
+CatBoostRegressor,leaf_estimation_backtracking,"""AnyImprovement""",Library default
+CatBoostRegressor,leaf_estimation_iterations,1,Library default
+CatBoostRegressor,leaf_estimation_method,"""Newton""",Library default
+CatBoostRegressor,learning_rate,0.047204334288835526,Optuna best parameter
+CatBoostRegressor,loss_function,"""RMSE""",Fixed by pipeline
+CatBoostRegressor,max_leaves,256,Library default
+CatBoostRegressor,min_data_in_leaf,1,Library default
+CatBoostRegressor,model_shrink_mode,"""Constant""",Library default
+CatBoostRegressor,model_shrink_rate,0,Library default
+CatBoostRegressor,model_size_reg,0.5,Library default
+CatBoostRegressor,nan_mode,"""Min""",Library default
+CatBoostRegressor,penalties_coefficient,1,Library default
+CatBoostRegressor,pool_metainfo_options,"{""tags"": {}}",Library default
+CatBoostRegressor,posterior_sampling,false,Library default
+CatBoostRegressor,random_score_type,"""NormalWithModelSizeDecrease""",Library default
+CatBoostRegressor,random_seed,42,Fixed by pipeline
+CatBoostRegressor,random_strength,1.9234156608581543,Optuna best parameter
+CatBoostRegressor,rsm,1,Library default
+CatBoostRegressor,sampling_frequency,"""PerTree""",Library default
+CatBoostRegressor,score_function,"""Cosine""",Library default
+CatBoostRegressor,sparse_features_conflict_fraction,0,Library default
+CatBoostRegressor,subsample,0.800000011920929,Library default
+CatBoostRegressor,task_type,"""CPU""",Library default
+CatBoostRegressor,thread_count,2,Fixed by pipeline
+CatBoostRegressor,use_best_model,false,Library default
+CatBoostRegressor,verbose,false,Fixed by pipeline
+SVR,C,18.684324183616088,Optuna best parameter
+SVR,cache_size,200,Library default
+SVR,coef0,0.0,Library default
+SVR,degree,3,Library default
+SVR,epsilon,0.0020663904525143905,Optuna best parameter
+SVR,gamma,0.0008251796314296465,Optuna best parameter
+SVR,kernel,"""rbf""",Optuna best parameter
+SVR,max_iter,-1,Library default
+SVR,shrinking,true,Library default
+SVR,tol,0.001,Library default
+SVR,verbose,false,Fixed by pipeline

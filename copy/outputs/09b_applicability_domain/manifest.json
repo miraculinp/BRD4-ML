@@ -1,0 +1,48 @@
+{
+  "stage": "09b_applicability_domain",
+  "seed": 42,
+  "created_utc": "2026-10-22T12:43:46.264433+00:00",
+  "parameters": {
+    "methods": [
+      "standardized 5-NN distance",
+      "training-feature bounding box",
+      "leverage h*=3p/n"
+    ],
+    "features": 250,
+    "knn_k": 5,
+    "knn_threshold_rule": "training mean + 2 population SD",
+    "leverage_threshold_rule": "3p/n, p is number of selected features",
+    "models_evaluated_from_saved_predictions": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "models_refit": false,
+    "y_randomization_run": false,
+    "test_used_only_for_domain_coverage_and_performance": true
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\all_features.parquet": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\target.parquet": "7ef24ccbada9d8a214bda65e33e5214ef35d3f3e8191e6a3f618f622a64a2c69",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv": "554e37fe419c1abbb2a9efcc144601553200207ea32342fed202fe7dae67de58",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\locked_test_predictions_all_models.csv": "e7a8c9e2afa51fa51a03138e83055c2d1033a8e9cc99256b2f30f25bd3cbfddc",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\fresh_cv_oof_predictions_ExtraTreesRegressor.csv": "fa62788f160472b6257f1378650bc0e6340fd417157046efd8b62f9cde9ded32"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\tables\\test_ad_flags_all_methods.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\tables\\ad_performance_inside_outside_all_methods.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\tables\\knn_domain_model_performance.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\tables\\ad_method_coverage.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\models\\ad_statistics_all_methods.joblib",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_knn_distance.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_knn_distance.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_bounding_box_violations.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_bounding_box_violations.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_leverage_diagnostic.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_leverage_diagnostic.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_method_coverage.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\09b_applicability_domain\\figures\\ad_method_coverage.pdf"
+  ]
+}

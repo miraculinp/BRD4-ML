@@ -1,0 +1,47 @@
+{
+  "stage": "12_candidate_generation_prioritization",
+  "seed": 42,
+  "created_utc": "2026-10-22T20:28:05.703158+00:00",
+  "parameters": {
+    "data_partition": "training/development only",
+    "fixed_feature_set": "Stage 05 exact 250 features",
+    "models": "saved Stage 08 ExtraTrees, CatBoost, SVR; prediction only",
+    "candidate_generation": "supported Stage 11 enriching MMP rules applied in exact training core contexts",
+    "recommendation_rule": {
+      "minimum_nearest_training_tanimoto": 0.65,
+      "inside_all_AD_methods": true,
+      "maximum_recommendations": 3,
+      "pairwise_similarity_below": 0.9
+    },
+    "test_activity_read": false,
+    "models_refit": false,
+    "feature_selection_repeated": false
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\02_clean_data\\tables\\cleaned_activity.csv": "f23789717c069d69fe5873a56fb23d3384dcbec01ffa9b17fe220341be174a64",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_enriching_transformations.csv": "37d1885301a095d86de9753748d7b3d7538d6c87b6f2290c37daab66ffda50fc",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_fragments_training.csv": "8adae57db3bb57b3cdd33aabe4a8c375f2e9f89c5b457de057e27948999144cd",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\mmp_pairs_training.csv": "32b73d89b5796dcd49d26ed612d1f6498284657c773ecb7cbf77254e36fa20c0",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\11_mmp_activity_cliffs\\tables\\primary_activity_cliffs_training.csv": "f1e1b84ba6a0f1cc3066716254a85d7746149242fb6b2b73cb78a7af5fb1407b",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\models\\final_ExtraTreesRegressor.joblib": "bafa0ab0f03529b80c81a4fe9a128d3534db68c4d7abde3decb0735ae182f643",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\models\\final_CatBoostRegressor.joblib": "5b0205ea0f2a91e971265e1b3209770ec07206364f551952bfaaf0c03b55bb86",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\models\\final_SVR.joblib": "490b58e952be67ab35fc958555b2a6fb9a7c2df213808bbef43d6b51985f4bf3"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\figures\\stage12_candidate_prediction_consensus.pdf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\figures\\stage12_candidate_prediction_consensus.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\figures\\stage12_top_candidate_structures.png",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\INTERPRETATION_NOTES.md",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\candidate_feature_audit.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\candidate_generation_failures.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\candidate_local_shap_top10.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\generated_candidate_analogues.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\scored_candidate_analogues.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\stage12_summary.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\12_candidate_generation_prioritization\\tables\\stage12_top_candidate_recommendations.csv"
+  ]
+}

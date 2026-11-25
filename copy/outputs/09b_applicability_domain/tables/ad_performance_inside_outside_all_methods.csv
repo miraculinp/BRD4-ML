@@ -1,0 +1,19 @@
+method,method_key,threshold_rule,threshold,model,domain_status,n_molecules,fraction_of_test,r2,rmse,mae
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,ExtraTreesRegressor,inside,1182,0.921278254091972,0.8230018123919676,0.5430065935324253,0.37231525593436865
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,ExtraTreesRegressor,outside,101,0.07872174590802807,0.5689497615757557,0.8225966156770292,0.6091928687740923
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,CatBoostRegressor,inside,1182,0.921278254091972,0.8212457744765114,0.545693589283625,0.3993228096247386
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,CatBoostRegressor,outside,101,0.07872174590802807,0.5952842476628613,0.7970728708394084,0.59778505748789
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,SVR,inside,1182,0.921278254091972,0.8326678346161445,0.5279714138193183,0.37513599825431826
+standardized 5-nearest-neighbor distance,knn,training mean + 2 population SD,12.53095944951217,SVR,outside,101,0.07872174590802807,0.5097946308138536,0.8772270306493346,0.6781369633528631
+training-feature bounding box,bounding_box,all 250 features within training min/max,,ExtraTreesRegressor,inside,1258,0.9805144193296961,0.8069238513321784,0.5650464225351315,0.38682078251602037
+training-feature bounding box,bounding_box,all 250 features within training min/max,,ExtraTreesRegressor,outside,25,0.019485580670303974,0.7388614524283191,0.7800544097761251,0.599382714218141
+training-feature bounding box,bounding_box,all 250 features within training min/max,,CatBoostRegressor,inside,1258,0.9805144193296961,0.8070580008820725,0.5648500909453393,0.4111281869447987
+training-feature bounding box,bounding_box,all 250 features within training min/max,,CatBoostRegressor,outside,25,0.019485580670303974,0.7463895041488497,0.7687285589200081,0.6070637042464438
+training-feature bounding box,bounding_box,all 250 features within training min/max,,SVR,inside,1258,0.9805144193296961,0.8115169643297837,0.5582849878188112,0.39423522218535156
+training-feature bounding box,bounding_box,all 250 features within training min/max,,SVR,outside,25,0.019485580670303974,0.7405605403729378,0.7775125713849366,0.6381869490428457
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,ExtraTreesRegressor,inside,1248,0.9727201870615745,0.8080868395337661,0.558503550281583,0.3850193103196821
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,ExtraTreesRegressor,outside,35,0.027279812938425563,0.7610260333776795,0.8876815563487961,0.6028860851898252
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,CatBoostRegressor,inside,1248,0.9727201870615745,0.8079160720040446,0.5587519779152599,0.40949367551334664
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,CatBoostRegressor,outside,35,0.027279812938425563,0.7702455074319216,0.8703900275325798,0.6093641354874636
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,SVR,inside,1248,0.9727201870615745,0.817054429980578,0.5452987576121845,0.38684947785023766
+leverage (hat value),leverage,h*=3p/n with p selected features,0.1460849240358395,SVR,outside,35,0.027279812938425563,0.687059106705536,1.0158113459652514,0.8318409965184806

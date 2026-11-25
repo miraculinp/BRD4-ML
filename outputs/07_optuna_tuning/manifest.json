@@ -1,0 +1,40 @@
+{
+  "stage": "07_optuna_tuning",
+  "seed": 42,
+  "created_utc": "2026-11-19T00:56:48.822121+00:00",
+  "parameters": {
+    "features": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "selected_feature_list": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "target": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "train_ids": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "tuner_script": "28fc0c8b8b7f79620e34e0b477552d68f03f71f44d4d6b51eb8933870ffa8c2c",
+    "feature_budget": 250,
+    "feature_selection": "fixed ordered Stage 05 selected 250-feature list; no fold-specific cleaning or reranking",
+    "folds": 5,
+    "models": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "tuned_models": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "seed": 42,
+    "best_model_by_cv": "SVR",
+    "test_used": false
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_model_comparison.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\best_params_cv_fold_metrics.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\fixed_250_features_used_for_tuning.csv"
+  ]
+}

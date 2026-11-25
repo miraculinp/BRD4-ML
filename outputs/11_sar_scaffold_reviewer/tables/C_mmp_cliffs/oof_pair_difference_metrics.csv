@@ -1,0 +1,13 @@
+pair_type,model,same_evaluation_fold,n_pairs,mean_absolute_delta_error,direction_recovery_fraction,primary_gap_magnitude_recovery_fraction
+primary_activity_cliff,CatBoostRegressor,False,3,1.6754156666686628,1.0,0.0
+primary_activity_cliff,CatBoostRegressor,True,3,1.3863332080926367,1.0,0.0
+primary_activity_cliff,ExtraTreesRegressor,False,3,0.790579257057671,1.0,0.6666666666666666
+primary_activity_cliff,ExtraTreesRegressor,True,3,0.6168974736637409,1.0,0.6666666666666666
+primary_activity_cliff,SVR,False,3,0.9210030195224107,1.0,0.3333333333333333
+primary_activity_cliff,SVR,True,3,0.8717092555838191,1.0,0.3333333333333333
+recorded_stereochemical_pair,CatBoostRegressor,False,112,0.4108300238581549,0.10714285714285714,0.0
+recorded_stereochemical_pair,CatBoostRegressor,True,293,0.4293243925319645,0.40273037542662116,0.0
+recorded_stereochemical_pair,ExtraTreesRegressor,False,112,0.4208377714498975,0.05357142857142857,0.026785714285714284
+recorded_stereochemical_pair,ExtraTreesRegressor,True,293,0.4184835092636732,0.5836177474402731,0.010238907849829351
+recorded_stereochemical_pair,SVR,False,112,0.3528280866200397,0.16964285714285715,0.008928571428571428
+recorded_stereochemical_pair,SVR,True,293,0.44968478019608665,0.3890784982935154,0.006825938566552901

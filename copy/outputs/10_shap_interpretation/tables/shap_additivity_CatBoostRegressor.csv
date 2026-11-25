@@ -1,0 +1,2 @@
+model,n_test,max_abs_additivity_error
+CatBoostRegressor,1283,1.0658141036401503e-14

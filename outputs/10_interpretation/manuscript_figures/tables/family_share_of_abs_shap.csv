@@ -1,0 +1,7 @@
+model,family,share_of_summed_abs_SHAP_pct
+ExtraTreesRegressor,Morgan,67.761815386241
+ExtraTreesRegressor,Mordred 2D,32.1179163537981
+ExtraTreesRegressor,Physicochemical,0.12026825996091213
+CatBoostRegressor,Morgan,35.87975410713067
+CatBoostRegressor,Mordred 2D,63.5675609813747
+CatBoostRegressor,Physicochemical,0.5526849114946223

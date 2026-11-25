@@ -1,0 +1,14 @@
+reviewer_item,status,where / note
+Uncertainty on test metrics,Done,Table A (RMSE/MAE/R² with scaffold-bootstrap CI); figure A_performance_with_baselines_CI
+Baseline comparison,Done,"Table C (mean, 1-NN, weighted 5-NN, Ridge on fixed 250) + Table D paired differences on identical resamples"
+Ranking quality,Done,"Table B (Spearman, Kendall τ, top-10% enrichment/overlap at pIC50 ≥ 8)"
+Is the final-model gain over 5-NN real?,Done – read Table D,"Report the paired CI; if it includes 0 the claim must be 'comparable', not 'better'"
+Train/test scaffold overlap,Done,Table E + Table F (error by similarity to training)
+Duplicate-measurement handling,Done,Table G (otherwise set RAW_ACTIVITY_PATH and re-run Part D.6)
+"Missing-bit interpretation (1722, 875, 1765, 2000)",Done,"Part B (training associations, within-scaffold tests, atom environments) + Table H (current-model SHAP, per-molecule contributions)"
+Activity-cliff threshold sensitivity,Done,Part C: activity_cliff_threshold_sensitivity.csv (now generated in the same notebook)
+Scaffold / series claims,Done,"Part A (CIs, FDR) and Part B (between vs within scaffold)"
+Remove/soften unsupported structure-based (binding) claims,EDITORIAL – not automatable,"SHAP, MMP and environment results are model- or association-level, not causal binding evidence"
+Correct references,EDITORIAL,–
+Explain classification thresholds if classification stays in the manuscript,EDITORIAL,pIC50 ≥ 8 here is only a high-potency enrichment threshold
+Assay-specific refit,NOT DONE – needs assay metadata and rebuilt Stage 02–08,Source table is mixed-assay unless metadata exists

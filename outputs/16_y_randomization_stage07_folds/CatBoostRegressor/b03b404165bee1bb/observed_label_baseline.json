@@ -1,0 +1,14 @@
+{
+  "cv_pooled_oof_rmse": 0.596612878328802,
+  "cv_pooled_oof_mse": 0.35594692658777793,
+  "cv_pooled_oof_mae": 0.43382244623623006,
+  "cv_pooled_oof_r2": 0.7566532564897612,
+  "cv_mean_fold_rmse": 0.5999104315692968,
+  "cv_sd_fold_rmse": 0.04204175814075742,
+  "stage07_run_id": "f081bd1fe370",
+  "stage07_trial_number": 10,
+  "stage07_study_name": "brd4_f081bd1fe370_CatBoostRegressor",
+  "stage07_objective": "mean fold RMSE",
+  "source": "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json",
+  "recomputed": false
+}

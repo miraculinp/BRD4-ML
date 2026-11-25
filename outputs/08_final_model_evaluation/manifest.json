@@ -1,0 +1,43 @@
+{
+  "stage": "08_final_model_evaluation",
+  "seed": 42,
+  "created_utc": "2026-11-20T07:41:52.058548+00:00",
+  "parameters": {
+    "models_fitted": [
+      "ExtraTreesRegressor",
+      "CatBoostRegressor",
+      "SVR"
+    ],
+    "parameters": "Optuna best parameters, applied and audited against the fitted estimators",
+    "primary_model_by_stage07_cv_mean_fold_rmse": "SVR",
+    "feature_budget_final_fit": 250,
+    "cv_source": "Stage 07 five-fold scaffold-grouped tuning CV; no Stage 08 CV",
+    "bootstrap": "2000 scaffold-cluster resamples of the locked test set",
+    "on_invalid_test": "error",
+    "n_test_scored": 1283,
+    "n_test_excluded": 0,
+    "test_used_for_tuning": false,
+    "no_imputation": true
+  },
+  "input_sha256": {
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_selected_features.parquet": "1973c05bd899ced5a35c51752ac6c47b3213b27a9fca292afb90e4ac94b879f7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\train_target.parquet": "82a178f3125f6b4f66287d2352b95a8db2760514cb2f258e0b806fde13fa12db",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\05_feature_selection\\tables\\selected_features.csv": "06adb12e9413ce50b4ba5a6c8d8448b6fca80ed5af8deae2d23b8156ed6138b7",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\train_ids.csv": "aa4bf5b9a236bc255fb22d3f028c212bca7dac4c5bd2067d3071288eefdcccbf",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\07_optuna_tuning\\tables\\optuna_best_params.json": "3df8ff70d875ebdb03f2907a950a3fa1828371b2253650039d7547570598173d",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\02_clean_data\\tables\\cleaned_activity.csv": "f23789717c069d69fe5873a56fb23d3384dcbec01ffa9b17fe220341be174a64",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\04_train_test_split\\tables\\test_ids.csv": "554e37fe419c1abbb2a9efcc144601553200207ea32342fed202fe7dae67de58",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\03_feature_generation\\tables\\all_features.parquet": "3659d99d00882b58d3b492400600d84d5601667132315cb204fa88917d8cffb1"
+  },
+  "outputs": [
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\final_model_comparison.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\final_test_metrics_full.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\final_model_parameters.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\paired_rmse_differences_bootstrap.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\applicability_domain_error.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\locked_test_predictions_all_models.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\locked_test_baseline_predictions.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\tables\\fixed250_features_used_for_final_fit.csv",
+    "C:\\Users\\USER\\Documents\\E\\Code\\outputs\\08_final_model_evaluation\\models\\final_model_bundle.joblib"
+  ]
+}
